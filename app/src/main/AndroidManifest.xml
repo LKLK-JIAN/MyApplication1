@@ -17,22 +17,22 @@
             android:name=".broadcast.MyBroadcast"
             android:exported="false" />
 
-        <activity android:name=".notification.notificationActivity"></activity>
+        <activity android:name=".notification.notificationActivity" />
 
         <service
             android:name=".notification.NotificationService"
             android:exported="false" />
 
         <activity android:name=".mydialog.MyAlertDialog" />
-        <activity android:name=".mydialog.MyAlertActivity">
-
-        </activity>
+        <activity android:name=".mydialog.MyAlertActivity"></activity>
         <activity android:name=".yingyong.LoginActivity">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main4Activity"></activity>
     </application>
 
 </manifest>
