@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Activity extends AppCompatActivity {
     private Button te;
@@ -22,7 +23,7 @@ public class Activity extends AppCompatActivity {
         te.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ts.setText("成功");
+                Toast.makeText(Activity.this, "", Toast.LENGTH_SHORT).show();
             }
         });
 
